@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: white;
+    color: black;
+    margin: 0%;
+}
+
+header a{
+    color: black;
+    font-size: 1.0em;
+    font-weight: bold;
+    
+}
+header{
+    background-color: rgb(226, 82, 82);
+    padding: 0.8em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+main
+
+main aside ul{
+    text-align: justify;
+    max-width: 70%;
+}
+aside{
+    background: linear-gradient(160deg, rgb(226, 82, 82) 20%, rgb(248, 151, 71));
+    color: white;
+    max-width: 25%;
+    margin-top: 0%;
+    
+}
+aside h2{
+    text-align: center;
+}
+
+aside img{
+
+    max-width: 90%;
+    text-align: center;
+}
+
+section{
+    text-align: justify;
+}

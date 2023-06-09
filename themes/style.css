@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: rgb(248, 151, 71);
+    color: rgb(85, 85, 85);
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: black;     
+}
+
+header{
+    background-color: rgb(226, 82, 82);
+    
+}
+
+main{
+    background-color: white;
+}
+
+
+aside{
+    background: linear-gradient(180deg, rgb(226, 82, 82) 30%, rgb(248, 151, 71));
+    color: white;
+    
+}
+
+footer{
+    background-color: rgb(248, 151, 71);
+    color: white;
+    
+}

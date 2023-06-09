@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Mon portfolio</title>
+      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+      <link rel="stylesheet" href="themes/style.css"> <!-- Changement de thème ici -->
+    </head>
+
+    <body>
+
+        <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+            <li><a class="actif" href="mes-projets.html">Mes projets</a></li>
+            <li><a href="me-contacter.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- 
+          Menu latéral montrant une photo de profil
+          ainsi que des informations personnelles
+        -->
+        <aside>
+
+          <!-- Photo de profil à remplacer -->
+          <figure>
+            <img src="./img/pp.jpg" alt="Photo de profil">
+          </figure>
+
+          <!-- Informations personnelles -->
+          <h2>Marchetti Anaïs</h2>
+          <ul>
+            <li>&#128100; Étudiante en première année du BUT informatique</li>
+            <li>&#128205; IUT2 Place Doyen Gosse</li>
+            <li>&#128381; 0783372807</li>
+          </ul>
+        </aside>
+
+        <!-- Le contenu principal apparait ici -->
+        <article class="projet_cat">
+
+          <!-- Titre de la page -->
+          <h1>Mes projets</h1>
+          <h2>SAE du S1</h2>
+          <div class="les_projets">
+            <div class="projet">
+              <img src="img/java.jpg" alt="java">
+              <a href="projet_SAE_0102.html"><span>SAE S1.01 02: Création de lexique intelligent</span> </a>
+            </div>
+
+            <div class="projet">
+              <img src="img/debian.jpg" alt="">
+              <a href="projet_SAE_03.html"><span>SAE S1.03: Debian</span> </a>
+            </div>
+
+            <div class="projet">
+            <img src="img/titanic.jfif" alt="titanic">
+            <a href="projet_SAE_04.html" ><span>SAE S1.04: Titanic</span> </a>
+            </div>
+
+            <div class="projet">
+            <img src="img/OBS.png" alt="OBS">
+            <a href="projet_SAE_0506.html" ><span>SAE S1.05 06: Orange Business Services</span> </a>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <h2>SAE du S2</h2>
+          <div class="les_projets">
+            <div class="projet">
+                <img src="img/debian.jpg" alt="idk">
+                <a href="projet_SAE2_03.html" ><span>SAE S2.03: Guide d'installation d'un serveur Debian 11</span> </a>
+              </div>
+
+              <div class="projet">
+                <img src="img/accident.jpg" alt="idk">
+                <a href="projet_SAE2_04.html" ><span>SAE S2.04: Exploitation d'une base de donnée</span> </a>
+              </div>
+
+              <div class="projet">
+                <img src="img/LAN.jpg" alt="idk">
+                <a href="projet_MegaSAE.html" ><span>SAE S2.01 02 05 06: Mega SAE</span> </a>
+              </div>
+          </div>
+
+        </article>
+
+      </main>
+
+      <!-- Barre des réseaux sociaux -->
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="https://twitter.com/Annakie18" target="_blank"><img src="img/Twitter.png" alt="Twitter" width="30"></a></li>
+            <li><a href="https://instagram.com/anais_annakie" target="_blank"><img src="img/Insta.png" alt="Instagram" width="30"></a></li>
+          </ul>
+          
+        </nav>
+      </footer>
+    </body>
+  </html>
+
+

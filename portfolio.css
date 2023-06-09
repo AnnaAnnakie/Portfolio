@@ -1,0 +1,159 @@
+main {
+  display:flex ;
+  flex-wrap:wrap-reverse;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.fil{
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  font-size: 0.8em;
+}
+
+.fil:hover{
+  color: rgb(226, 82, 82);
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 10px;
+  flex-basis: 75%;
+  padding-bottom: 10px;
+}
+
+article img{
+  margin-left: 50px;
+}
+
+p{
+  margin-left: 20px;
+  text-align: justify;
+}
+
+header{
+  padding: 0.8em;
+}
+
+header a{
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav ul{
+  list-style: none; 
+  justify-content: space-around;
+  display: flex;
+}
+
+
+ul{
+  list-style: none; 
+}
+
+nav li{
+  display: inline;
+}
+
+
+main aside ul{
+  text-align: justify;
+  max-width: 70%;
+  list-style-type: disc;
+}
+
+aside h2{
+  text-align: center;
+}
+
+aside img{
+
+  max-width: 90%;
+  text-align: center;
+}
+
+section{
+  text-align: justify;
+}
+
+aside{
+  padding-right: 10px;
+  padding-right: 10px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  flex-basis: 20%;
+  flex-grow: 1;
+  
+}
+
+footer{
+  margin-top: 0%;
+  padding: 0.1em;
+}
+
+
+
+.les_projets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;  
+}
+
+.projet{
+  display: flex;
+  padding:5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.projet img{
+  width:300px;
+  height:250px;
+}
+
+span{
+  position: absolute;
+  padding:3px;
+  border-radius: 10px;
+  background-color: rgb(226, 82, 82);
+  color: white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.2s;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+span:hover{
+  opacity: 0.97;
+}
+
+
+
+div img{
+  margin: 0;
+  width: 250px;
+}
+
+div{
+  display: flex;
+  
+  box-sizing: border-box;
+}
+article h2{
+  margin-left: 30px;
+  font-size: 20px;
+}
