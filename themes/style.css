@@ -17,19 +17,11 @@ header{
     
 }
 
-main{
+article{
     background-color: white;
 }
 
-
-aside{
-    background: linear-gradient(180deg, rgb(226, 82, 82) 30%, rgb(248, 151, 71));
-    color: white;
-    
-}
-
 footer{
-    background-color: rgb(248, 151, 71);
     color: white;
-    
+
 }
