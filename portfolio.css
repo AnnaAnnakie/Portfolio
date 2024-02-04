@@ -18,9 +18,7 @@ body {
 }
 
 article{
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding: 2% 10% 2% 10%;
   margin: auto;
   width: 100%;
 }
@@ -29,9 +27,10 @@ article img{
   margin-left: 50px;
 }
 
-p{
-  margin-left: 20px;
+article p{
   text-align: justify;
+  margin: 0 5% 2% 5%;
+
 }
 
 header{
@@ -39,7 +38,7 @@ header{
 }
 
 header a{
-  font-size: 1.0em;
+  font-size: 200%;
   font-weight: bold;
   text-decoration: none;
 }
@@ -48,54 +47,20 @@ header nav ul{
   list-style: none; 
   justify-content: space-around;
   display: flex;
+  margin: auto;
 }
-
-
-ul{
-  list-style: none; 
-}
-
 nav li{
   display: inline;
-}
-
-
-main aside ul{
-  text-align: justify;
-  max-width: 70%;
-  list-style-type: disc;
-}
-
-aside h2{
-  text-align: center;
-}
-
-aside img{
-
-  max-width: 90%;
-  text-align: center;
 }
 
 section{
   text-align: justify;
 }
 
-aside{
-  padding-right: 10px;
-  padding-right: 10px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  flex-basis: 20%;
-  flex-grow: 1;
-  
-}
-
 footer{
   margin-top: 0%;
   padding: 0.1em;
 }
-
-
 
 .les_projets{
   display: flex;
@@ -141,7 +106,10 @@ span:hover{
   opacity: 0.97;
 }
 
-
+/*actif{
+  background-color: rgba(4,4,4,0.2);
+  padding: 1%;
+}*/
 
 div img{
   margin: 0;
