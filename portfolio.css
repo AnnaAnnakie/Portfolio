@@ -19,8 +19,12 @@ body {
 
 article{
   padding: 2% 10% 2% 10%;
-  margin: auto;
-  width: 100%;
+  /*margin: 3%;*/
+  width: 100%; 
+  /*backdrop-filter: blur(9px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: #f9f9f99f;
+  border-radius: 1.5em;*/
 }
 
 article img{
@@ -124,4 +128,10 @@ div{
 article h2{
   margin-left: 30px;
   font-size: 20px;
+}
+
+.empty{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
