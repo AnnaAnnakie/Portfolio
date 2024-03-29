@@ -1,5 +1,5 @@
 main {
-  display:flex ;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -7,95 +7,94 @@ body {
   margin: 0;
 }
 
-.fil{
+.fil {
   text-decoration: none;
   color: rgb(85, 85, 85);
   font-size: 0.8em;
 }
 
-.fil:hover{
+.fil:hover {
   color: rgb(226, 82, 82);
 }
 
-article{
+article {
   padding: 2% 10% 2% 10%;
   /*margin: 3%;*/
-  width: 100%; 
+  width: 100%;
   /*backdrop-filter: blur(9px);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   background-color: #f9f9f99f;
   border-radius: 1.5em;*/
 }
 
-article img{
+article img {
   margin-left: 50px;
 }
 
-article p{
+article p {
   text-align: justify;
   margin: 0 5% 2% 5%;
-
 }
 
-header{
+header {
   padding: 0.8em;
 }
 
-header a{
+header a {
   font-size: 200%;
   font-weight: bold;
   text-decoration: none;
 }
 
-header nav ul{
-  list-style: none; 
+header nav ul {
+  list-style: none;
   justify-content: space-around;
   display: flex;
   margin: auto;
 }
-nav li{
+nav li {
   display: inline;
 }
 
-section{
+section {
   text-align: justify;
 }
 
-footer{
+footer {
   margin-top: 0%;
   padding: 0.1em;
 }
 
-.les_projets{
+.les_projets {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;  
+  gap: 50px;
 }
 
-.projet{
+.projet {
   display: flex;
-  padding:5px;
+  padding: 5px;
   position: relative;
   border-radius: 10px;
 }
 
-.projet img{
-  width:300px;
-  height:300px;
+.projet img {
+  width: 300px;
+  height: 300px;
 }
 
-span{
+span {
   position: absolute;
-  padding:3px;
+  padding: 3px;
   border-radius: 10px;
   background-color: rgb(226, 82, 82);
   color: white;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +105,7 @@ span{
   font-weight: bold;
 }
 
-span:hover{
+span:hover {
   opacity: 0.97;
 }
 
@@ -115,22 +114,22 @@ span:hover{
   padding: 1%;
 }*/
 
-div img{
+div img {
   margin: 0;
   width: 250px;
 }
 
-div{
+div {
   display: flex;
-  
+
   box-sizing: border-box;
 }
-article h2{
+article h2 {
   margin-left: 30px;
   font-size: 20px;
 }
 
-.empty{
+.empty {
   position: fixed;
   bottom: 0;
   width: 100%;
