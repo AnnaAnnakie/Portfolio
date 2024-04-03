@@ -134,3 +134,19 @@ article h2 {
   bottom: 0;
   width: 100%;
 }
+
+/* Gallerie */
+.gallery {
+  column-count: 4; 
+  column-gap: 10px; 
+}
+
+.item {
+  display: inline-block;
+  margin: 0 0 10px;
+  break-inside: avoid-column;
+}
+
+.item img {
+  display: block;
+}
