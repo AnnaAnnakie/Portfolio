@@ -12,18 +12,38 @@
   </head>
 
   <body>
-    <!-- 
-          Barre de navigation principale.
-          À noter : le lien actif contient un nom de classe "actif"
-        -->
+    <div class="container">
     <header>
-      <nav>
+
+      <div class="menu-burger" onclick="toggleMenu()">
+        <img src="img/buger.png" alt="icone-menu-burger" width="30px">
+      </div>
+      
+      <nav class="menu">
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li class="actif"><a href="mes-projets.html">Mes projets</a></li>
+          <li><a  href="index.html">Accueil</a></li>
+          <li><a href="mes-projets.html">Mes projets</a></li>
           <li><a href="galerie.html">Galerie</a></li>
         </ul>
+        <div class="contact">
+          <ul>
+            <li>
+              <p>(+33)7 83 37 28 07</p>
+            </li>
+            <li id="reseau">
+              <a href="https://twitter.com/AnnakieDraw" target="_blank"
+                ><img src="img/Twitter.png" alt="Twitter" width="30"
+              /></a>
+            </li>
+            <li id="reseau">
+              <a href="https://instagram.com/anais_annakie" target="_blank"
+                ><img src="img/Insta.png" alt="Instagram" width="30"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </nav>
+
     </header>
     <main>
       <!-- Le contenu principal apparait ici -->
@@ -40,24 +60,7 @@
         <h2>Work in progress...</h2>
       </article>
     </main>
-
-    <!-- Barre des réseaux sociaux -->
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a href="https://twitter.com/AnnakieDraw" target="_blank"
-              ><img src="img/Twitter.png" width="30"
-            /></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/anais_annakie" target="_blank"
-              ><img src="img/Insta.png" width="30"
-            /></a>
-          </li>
-          <li><a</li>
-        </ul>
-      </nav>
-    </footer>
+    </div>
+    <script src="burger.js"></script>
   </body>
 </html>

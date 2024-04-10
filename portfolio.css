@@ -1,30 +1,75 @@
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
+/* regles generales */
 body {
   margin: 0;
 }
 
-.fil {
+a{
   text-decoration: none;
-  color: rgb(85, 85, 85);
-  font-size: 0.8em;
+} 
+
+/* Header */
+
+header {
+  padding: 10px 20px;
+  flex: 0 0 6000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 }
 
-.fil:hover {
-  color: rgb(226, 82, 82);
+.menu-burger {
+  cursor: pointer;
 }
 
+.menu-burger img {
+  width: 30px;
+  height: auto;
+}
+
+.menu {
+  display: none;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  font-size: 30px;
+}
+
+.menu .contact{
+  position: absolute;
+  bottom: 10px;
+}
+
+.menu .contact img{
+  width: 30px;
+}
+
+.menu .contact #reseau{
+  display: inline;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.container{
+  display: flex;
+}
 article {
   padding: 2% 10% 2% 10%;
-  /*margin: 3%;*/
   width: 100%;
-  /*backdrop-filter: blur(9px);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: #f9f9f99f;
-  border-radius: 1.5em;*/
 }
 
 article img {
@@ -36,33 +81,9 @@ article p {
   margin: 0 5% 2% 5%;
 }
 
-header {
-  padding: 0.8em;
-}
-
-header a {
-  font-size: 200%;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-header nav ul {
-  list-style: none;
-  justify-content: space-around;
-  display: flex;
-  margin: auto;
-}
-nav li {
-  display: inline;
-}
 
 section {
   text-align: justify;
-}
-
-footer {
-  margin-top: 0%;
-  padding: 0.1em;
 }
 
 .les_projets {
@@ -89,7 +110,6 @@ span {
   position: absolute;
   padding: 3px;
   border-radius: 10px;
-  background-color: rgb(226, 82, 82);
   color: white;
   top: 0;
   bottom: 0;
@@ -108,11 +128,6 @@ span {
 span:hover {
   opacity: 0.97;
 }
-
-/*actif{
-  background-color: rgba(4,4,4,0.2);
-  padding: 1%;
-}*/
 
 div img {
   margin: 0;

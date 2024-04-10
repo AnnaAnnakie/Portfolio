@@ -9,15 +9,21 @@
   src: url("./../font/static/Montserrat-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+:root {
+  --fond : white; 
+}
 
 body {
-  /*font-family: Verdana, Geneva, Tahoma, sans-serif ;*/
   font-family: "Monserrat", sans-serif;
   color: rgb(85, 85, 85);
   font-size: larger;
+  background-color: var(--fond);
 }
 
-header a {
+header {
+  color: white;
+}
+header a{
   color: white;
 }
 
@@ -25,15 +31,10 @@ header a:hover {
   color: black;
 }
 
-header {
-  background-color: rgb(226, 82, 82);
-}
-
-footer {
-  color: white;
-  background-color: rgb(248, 151, 71);
-}
-
 h1 {
   font-weight: bold;
+}
+
+span{
+  background-color: rgb(226, 82, 82);
 }
