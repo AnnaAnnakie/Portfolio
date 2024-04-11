@@ -58,6 +58,7 @@ header {
 }
 
 /* main */
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -81,11 +82,7 @@ article p {
   margin: 0 5% 2% 5%;
 }
 
-
-section {
-  text-align: justify;
-}
-
+/* Mes projets */
 .les_projets {
   display: flex;
   justify-content: center;
@@ -136,18 +133,11 @@ div img {
 
 div {
   display: flex;
-
   box-sizing: border-box;
 }
 article h2 {
   margin-left: 30px;
   font-size: 20px;
-}
-
-.empty {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 /* Gallerie */
@@ -164,4 +154,16 @@ article h2 {
 
 .item img {
   display: block;
+}
+
+/* Home page */
+
+.welcome{
+  display: flex;
+  width: 100%;
+  height: 20vw;
+}
+
+.welcome p{
+  margin: auto;
 }
