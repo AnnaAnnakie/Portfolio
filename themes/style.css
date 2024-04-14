@@ -10,37 +10,46 @@
   font-weight: bold;
 }
 :root {
-  --fond : white;
-  --gris : #efefef;
-  --apricot : #fed0bb;
-  --melon : #FCB9B2;
-  --redwood : #B23A48;
-  --cordovan : #8C2F39;
-  --chocolatecosmos : #461220; 
-  --oldcolor : rgb(226, 82, 82);
+  --fond: white;
+  --text: rgb(63, 63, 63);
+  --gris: #efefef;
+  --apricot: #fed0bb;
+  --melon: #fcb9b2;
+  --redwood: #b23a48;
+  --cordovan: #8c2f39;
+  --chocolatecosmos: #461220;
+  --oldcolor: rgb(226, 82, 82);
 }
 
 body {
   font-family: "Monserrat", sans-serif;
-  color: rgb(85, 85, 85);
+  color: var(--text);
   font-size: larger;
   background-color: var(--fond);
 }
 
-.welcome{
-  background: linear-gradient(to bottom, var(--melon), rgba(255, 255, 255, 0));
-}
-
-.welcome p{
+.welcome #bienvenue {
   font-size: 3vw;
   font-family: "Monserrat";
   font-weight: bold;
+  color: black;
+}
+.welcome #source {
+  background-color: rgba(40, 40, 40, 0.3);
+  font-size: 1vw;
+  color: var(--text);
+}
+.welcome #source:hover {
+  color: white;
+}
+.filtre {
+  background-color: rgba(255, 234, 234, 0.6);
 }
 
 header {
   color: white;
 }
-header a{
+header a {
   color: white;
 }
 
@@ -52,6 +61,6 @@ h1 {
   font-weight: bold;
 }
 
-span{
+span {
   background-color: var(--redwood);
 }

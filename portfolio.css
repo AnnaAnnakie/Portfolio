@@ -3,9 +3,9 @@ body {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
-} 
+}
 
 /* Header */
 
@@ -44,16 +44,16 @@ header {
   font-size: 30px;
 }
 
-.menu .contact{
+.menu .contact {
   position: absolute;
   bottom: 10px;
 }
 
-.menu .contact img{
+.menu .contact img {
   width: 30px;
 }
 
-.menu .contact #reseau{
+.menu .contact #reseau {
   display: inline;
 }
 
@@ -65,7 +65,7 @@ main {
   flex: 1;
 }
 
-.container{
+.container {
   display: flex;
 }
 article {
@@ -142,8 +142,8 @@ article h2 {
 
 /* Gallerie */
 .gallery {
-  column-count: 4; 
-  column-gap: 10px; 
+  column-count: 4;
+  column-gap: 10px;
 }
 
 .item {
@@ -158,12 +158,40 @@ article h2 {
 
 /* Home page */
 
-.welcome{
+.welcome {
   display: flex;
   width: 100%;
   height: 20vw;
+  position: relative;
 }
 
-.welcome p{
+.welcome #bienvenue {
   margin: auto;
+  z-index: 11;
+}
+.welcome img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  z-index: 9;
+}
+
+.filtre {
+  width: 100%;
+  height: 20vw;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+}
+.welcome #source {
+  position: absolute;
+  display: flex;
+  margin-bottom: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 11;
+  padding: 5px 2px 2px 5px;
+  border-radius: 5px 0 0 0;
 }
