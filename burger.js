@@ -11,7 +11,7 @@ function toggleMenu() {
   if (menu.style.display === "block") {
     menu.style.display = "none";
     menu.style.removeProperty("width");
-    /*supprimerMediaQuery("max-witdh : 768px");*/
+    supprimerMediaQuery("max-witdh : 768px");
     header.style.removeProperty("height");
     header.style.removeProperty("background-color");
     img.src = "img/buger.png";
@@ -21,7 +21,7 @@ function toggleMenu() {
   } else {
     menu.style.display = "block";
     menu.style.width = "300px";
-    /*ajouterMediaQuery("max-width : 768px", "width : 767px");*/
+    ajouterMediaQuery("max-width : 768px", "width : 767px");
     header.style.height = "100%";
     header.style.backgroundColor = "rgb(226, 82, 82)";
     img.src = "img/croix.png";
