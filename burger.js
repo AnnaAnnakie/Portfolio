@@ -22,7 +22,7 @@ function toggleMenu() {
   } else {
     // apparition du menu burger
     menu.style.display = "block";
-    if (window.innerWidth < "768") {
+    if (window.innerWidth < "1080") {
       header.style.width = "100%";
     } else {
       menu.style.width = "300px";
