@@ -40,9 +40,11 @@ body {
   font-size: 1vw;
   color: white;
 }
+
 .welcome #source:hover {
   color: white;
 }
+
 .filtre {
   background: linear-gradient(
     to top,
@@ -58,6 +60,11 @@ header {
 }
 header a {
   color: white;
+}
+@media only screen and (max-width: 768px) {
+  .menu ul li a {
+    font-size: 3vh;
+  }
 }
 
 header a:hover {

@@ -1,4 +1,4 @@
-let feuilleDeStyle = document.styleSheets[0];
+let feuilleDeStyle = window.document.styleSheets[0];
 
 function toggleMenu() {
   let menu = document.querySelector(".menu");
@@ -9,9 +9,10 @@ function toggleMenu() {
   let overlay = document.querySelector(".overlay");
 
   if (menu.style.display === "block") {
+    // disparition du menu burger
     menu.style.display = "none";
     menu.style.removeProperty("width");
-    supprimerMediaQuery("max-witdh : 768px");
+    header.style.removeProperty("width");
     header.style.removeProperty("height");
     header.style.removeProperty("background-color");
     img.src = "img/buger.png";
@@ -19,44 +20,19 @@ function toggleMenu() {
     eclaire();
     window.removeEventListener("scroll", noscroll);
   } else {
+    // apparition du menu burger
     menu.style.display = "block";
-    menu.style.width = "300px";
-    ajouterMediaQuery("max-width : 768px", "width : 767px");
+    if (window.innerWidth < "768") {
+      header.style.width = "100%";
+    } else {
+      menu.style.width = "300px";
+    }
     header.style.height = "100%";
     header.style.backgroundColor = "rgb(226, 82, 82)";
     img.src = "img/croix.png";
 
     assombrir();
     window.addEventListener("scroll", noscroll);
-  }
-}
-
-function ajouterMediaQuery(mediaQuery, cssRules) {
-  if (feuilleDeStyle.insertRule) {
-    // Utiliser insertRule pour les navigateurs modernes
-    feuilleDeStyle.insertRule(
-      `@media ${mediaQuery} { ${cssRules} }`,
-      feuilleDeStyle.cssRules.length
-    );
-  } else if (feuilleDeStyle.addRule) {
-    // Utiliser addRule pour les anciens navigateurs IE
-    feuilleDeStyle.addRule(
-      `@media ${mediaQuery}`,
-      cssRules,
-      feuilleDeStyle.rules.length
-    );
-  }
-}
-function supprimerMediaQuery(mediaQuery) {
-  var styleSheets = document.styleSheets; // Récupérer toutes les feuilles de style
-  for (var i = 0; i < styleSheets.length; i++) {
-    var rules = styleSheets[i].cssRules || styleSheets[i].rules; // Récupérer les règles CSS
-    for (var j = 0; j < rules.length; j++) {
-      // Vérifier si la règle est un media query et correspond à la requête spécifiée
-      if (rules[j].type === 4 && rules[j].media.mediaText === mediaQuery) {
-        styleSheets[i].deleteRule(j); // Supprimer la règle
-      }
-    }
   }
 }
 
