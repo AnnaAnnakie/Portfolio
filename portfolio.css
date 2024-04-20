@@ -198,7 +198,7 @@ article h2 {
 
 /* Responsive */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1081px) {
   .menu-burger img {
     width: 80px;
   }

@@ -76,7 +76,7 @@ span {
 
 /* Responsive */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1081px) {
   .menu ul li a {
     font-size: 3vh;
   }
