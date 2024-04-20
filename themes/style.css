@@ -73,3 +73,16 @@ h1 {
 span {
   background-color: var(--redwood);
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 1080px) {
+  .menu ul li a {
+    font-size: 3vh;
+  }
+
+  .welcome #bienvenue {
+    font-size: 6vw;
+    text-align: center;
+  }
+}
