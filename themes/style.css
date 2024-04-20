@@ -48,9 +48,9 @@ body {
 .filtre {
   background: linear-gradient(
     to top,
-    rgba(64, 64, 64, 0.7),
+    rgba(64, 64, 64, 0.8),
     10%,
-    rgba(255, 234, 234, 0.6)
+    rgba(255, 234, 234, 0.7)
   );
   /*background-color: );*/
 }
@@ -78,11 +78,18 @@ span {
 
 @media only screen and (max-width: 1081px) {
   .menu ul li a {
-    font-size: 3vh;
+    font-size: 4vh;
+  }
+
+  .contact ul li p {
+    font-size: 2vh;
   }
 
   .welcome #bienvenue {
     font-size: 6vw;
     text-align: center;
+  }
+  #reseau img {
+    width: 100px;
   }
 }
