@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Mon portfolio</title>
+    <link rel="stylesheet" href="mobile.css" />
+    <!-- Rendre responsive -->
     <link rel="stylesheet" href="portfolio.css" />
     <!-- Feuille de style principale -->
     <link rel="stylesheet" href="themes/style.css" />
@@ -13,76 +15,74 @@
 
   <body>
     <div class="container">
-    <header>
-
-      <div class="menu-burger" onclick="toggleMenu()">
-        <img src="img/buger.png" alt="icone-menu-burger" width="30px">
-      </div>
-      
-      <nav class="menu">
-        <ul>
-          <li><a  href="index.html">Accueil</a></li>
-          <li><a href="mes-projets.html">Mes projets</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-        </ul>
-        <div class="contact">
-          <ul>
-            <li>
-              <p>(+33)7 83 37 28 07</p>
-            </li>
-            <li id="reseau">
-              <a href="https://twitter.com/AnnakieDraw" target="_blank"
-                ><img src="img/Twitter.png" alt="Twitter" width="30"
-              /></a>
-            </li>
-            <li id="reseau">
-              <a href="https://instagram.com/anais_annakie" target="_blank"
-                ><img src="img/Insta.png" alt="Instagram" width="30"
-              /></a>
-            </li>
-          </ul>
+      <header>
+        <div class="menu-burger" onclick="toggleMenu()">
+          <img src="img/buger.png" alt="icone-menu-burger" width="30px" />
         </div>
-      </nav>
 
-    </header>
-    <main>
-      <!-- Le contenu principal apparait ici -->
-      <article>
-        <p>
-          <a class="fil" href="mes-projets.html">mes projets</a> >
-          <a class="fil" href="projet_SAE2_04.html">SAE2.04</a>
-        </p>
-        <h1>Exploitation d'une base de donnée</h1>
-        <p>
-          &nbsp; • Temps de travail accordé: 10h <br />
-          &nbsp; • Nombre de membres dans le groupe: 2 <br />
-        </p>
-        <h2>Introduction</h2>
-        <p>Dans le cadre de ce projet nous avons du analyser une </p>
-        <p>
-          A partir d'une base de donnée, il a fallu faire un compte rendu
-          concernant des accidents de voiture.
-        </p>
-        <p>
-          Comme support de travail nous avons eu 2 bases de données répertoriant
-          les accidents sur la route dans toutes les régions de France entre
-          2006 et 2018 pour la première et une autre entre 2019 et 2021. Il a
-          fallu les réunir puis trier les informations nécessaire à notre
-          analyse, dans le cas de mon groupe: les mineurs engagés dans des
-          accidents de la région Auvergne-Rhône-Alpes.
-        </p>
-        <p>
-          Une fois notre base de données prête à l'utilisation, nous avons pu
-          rédiger un rapport sur ses accidents grâce à des graphiques produit
-          sur RSturio en utilisant ggplot2.
-        </p>
-        <img src="img/graphique.png" alt="graphique" width="600" />
-        <p>
-          Nous avons travailler à l'aide de ces graphiques pour analyser notre
-          cas et faire une étude des accidents de notre groupe d'individus
-        </p>
-      </article>
-    </main>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="mes-projets.html">Mes projets</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+          </ul>
+          <div class="contact">
+            <ul>
+              <li>
+                <p>(+33)7 83 37 28 07</p>
+              </li>
+              <li id="reseau">
+                <a href="https://twitter.com/AnnakieDraw" target="_blank"
+                  ><img src="img/Twitter.png" alt="Twitter" width="30"
+                /></a>
+              </li>
+              <li id="reseau">
+                <a href="https://instagram.com/anais_annakie" target="_blank"
+                  ><img src="img/Insta.png" alt="Instagram" width="30"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- Le contenu principal apparait ici -->
+        <article>
+          <p>
+            <a class="fil" href="mes-projets.html">mes projets</a> >
+            <a class="fil" href="projet_SAE2_04.html">SAE2.04</a>
+          </p>
+          <h1>Exploitation d'une base de donnée</h1>
+          <p>
+            &nbsp; • Temps de travail accordé: 10h <br />
+            &nbsp; • Nombre de membres dans le groupe: 2 <br />
+          </p>
+          <h2>Introduction</h2>
+          <p>Dans le cadre de ce projet nous avons du analyser une</p>
+          <p>
+            A partir d'une base de donnée, il a fallu faire un compte rendu
+            concernant des accidents de voiture.
+          </p>
+          <p>
+            Comme support de travail nous avons eu 2 bases de données
+            répertoriant les accidents sur la route dans toutes les régions de
+            France entre 2006 et 2018 pour la première et une autre entre 2019
+            et 2021. Il a fallu les réunir puis trier les informations
+            nécessaire à notre analyse, dans le cas de mon groupe: les mineurs
+            engagés dans des accidents de la région Auvergne-Rhône-Alpes.
+          </p>
+          <p>
+            Une fois notre base de données prête à l'utilisation, nous avons pu
+            rédiger un rapport sur ses accidents grâce à des graphiques produit
+            sur RSturio en utilisant ggplot2.
+          </p>
+          <img src="img/graphique.png" alt="graphique" width="600" />
+          <p>
+            Nous avons travailler à l'aide de ces graphiques pour analyser notre
+            cas et faire une étude des accidents de notre groupe d'individus
+          </p>
+        </article>
+      </main>
     </div>
 
     <script src="burger.js"></script>

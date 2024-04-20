@@ -61,11 +61,6 @@ header {
 header a {
   color: white;
 }
-@media only screen and (max-width: 1080px) {
-  .menu ul li a {
-    font-size: 3vh;
-  }
-}
 
 header a:hover {
   color: black;

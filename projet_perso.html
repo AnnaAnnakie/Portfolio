@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Mon portfolio</title>
+    <link rel="stylesheet" href="mobile.css" />
+    <!-- Rendre responsive -->
     <link rel="stylesheet" href="portfolio.css" />
     <!-- Feuille de style principale -->
     <link rel="stylesheet" href="themes/style.css" />
@@ -13,94 +15,93 @@
 
   <body>
     <div class="container">
-    <header>
+      <header>
+        <div class="menu-burger" onclick="toggleMenu()">
+          <img src="img/buger.png" alt="icone-menu-burger" width="30px" />
+        </div>
 
-      <div class="menu-burger" onclick="toggleMenu()">
-        <img src="img/buger.png" alt="icone-menu-burger" width="30px">
-      </div>
-      
-      <nav class="menu">
-        <ul>
-          <li><a  href="index.html">Accueil</a></li>
-          <li><a href="mes-projets.html">Mes projets</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-        </ul>
-        <div class="contact">
+        <nav class="menu">
           <ul>
-            <li>
-              <p>(+33)7 83 37 28 07</p>
-            </li>
-            <li id="reseau">
-              <a href="https://twitter.com/AnnakieDraw" target="_blank"
-                ><img src="img/Twitter.png" alt="Twitter" width="30"
-              /></a>
-            </li>
-            <li id="reseau">
-              <a href="https://instagram.com/anais_annakie" target="_blank"
-                ><img src="img/Insta.png" alt="Instagram" width="30"
-              /></a>
-            </li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="mes-projets.html">Mes projets</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
           </ul>
-        </div>
-      </nav>
+          <div class="contact">
+            <ul>
+              <li>
+                <p>(+33)7 83 37 28 07</p>
+              </li>
+              <li id="reseau">
+                <a href="https://twitter.com/AnnakieDraw" target="_blank"
+                  ><img src="img/Twitter.png" alt="Twitter" width="30"
+                /></a>
+              </li>
+              <li id="reseau">
+                <a href="https://instagram.com/anais_annakie" target="_blank"
+                  ><img src="img/Insta.png" alt="Instagram" width="30"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- Le contenu principal apparait ici -->
+        <article>
+          <p>
+            <a class="fil" href="mes-projets.html">mes projets</a> >
+            <a class="fil" href="projet_perso.html">Graphisme</a>
+          </p>
+          <h1>Graphisme</h1>
+          <p>
+            &nbsp; • Temps de travail : quand j'ai du temps libre<br />
+            &nbsp; • Nombre de membres dans le groupe: 1 <br />
+          </p>
+          <h2>Introduction</h2>
+          <p>
+            Lorsque j'étais au collège, j'ai commencé à être fasciné par les
+            dessins de mon enseignants de l'époque, ainsi que d'autres artistes.
+            J'ai commencé à me découvrir une passion pour le dessin, moi qui ne
+            savait rien dessiner à part les légendaires stick man que tout le
+            monde a déjà fait dans sa vie. J'ai donc commencé à m'interesser au
+            dessin et j'ai eu l'occasion de tester plusieurs style pour voir mes
+            préférences. Dans le cadre de mes études je me déplace
+            régulièrement, j'ai donc commencé à me spécialiser dans l'art
+            numérique.
+          </p>
 
-    </header>
-    <main>
-      <!-- Le contenu principal apparait ici -->
-      <article>
-        <p>
-          <a class="fil" href="mes-projets.html">mes projets</a> >
-          <a class="fil" href="projet_perso.html">Graphisme</a>
-        </p>
-        <h1>Graphisme</h1>
-        <p>
-          &nbsp; • Temps de travail : quand j'ai du temps libre<br />
-          &nbsp; • Nombre de membres dans le groupe: 1 <br />
-        </p>
-        <h2>Introduction</h2>
-        <p>
-          Lorsque j'étais au collège, j'ai commencé à être fasciné par les
-          dessins de mon enseignants de l'époque, ainsi que d'autres artistes.
-          J'ai commencé à me découvrir une passion pour le dessin, moi qui ne
-          savait rien dessiner à part les légendaires stick man que tout le
-          monde a déjà fait dans sa vie. J'ai donc commencé à m'interesser au
-          dessin et j'ai eu l'occasion de tester plusieurs style pour voir mes
-          préférences. Dans le cadre de mes études je me déplace régulièrement,
-          j'ai donc commencé à me spécialiser dans l'art numérique.
-        </p>
-
-        <h2>Mes débuts</h2>
-        <p>
-          J'ai eu l'occasion d'être entouré de plusieurs petits streamer Twitch
-          au début de l'année 2023. Partant d'une blague j'ai commencé à
-          dessiner quelques emotes pour une streameuse avec qui je m'entendais
-          bien, ce qui m'a permi d'avoir une légère rémunération.
-        </p>
-        <div display="inline">
-          <img
-            src="img/fenggeng_yuki.png"
-            width="250"
-            border="2px rgb(85, 85, 85) solid" />
-        </div>
-        <p>
-          Après cela j'ai commencé à dessiner de plus en plus pour me
-          spécialiser dans ce domaine. J'ai commencé à dessiner des overlay/des
-          scènes que j'ai utilisé pour moi même. Pour pouvoir prendre l'habitude
-          des commissions, je dessine pour un ami des emotes pour sa chaine, je
-          ne lui demande pas de rémunération mais à terme je pourrais l'utiliser
-          comme vitrine.
-        </p>
-        <h2>Projet/Objectifs</h2>
-        <p>
-          Je me concentre principalement sur mes cours mais je compte ouvrir une
-          boutique Etsy ou je pourrais vendre mes créations. Cela me permettra
-          de pouvoir me créer de potentiels clients sans avoir à prendre des
-          commandes qui seront soient retardé, soit qui m'empecheront de
-          poursuivre correctement mes études.
-        </p>
-        <h2>Work in progress...</h2>
-      </article>
-    </main>
+          <h2>Mes débuts</h2>
+          <p>
+            J'ai eu l'occasion d'être entouré de plusieurs petits streamer
+            Twitch au début de l'année 2023. Partant d'une blague j'ai commencé
+            à dessiner quelques emotes pour une streameuse avec qui je
+            m'entendais bien, ce qui m'a permi d'avoir une légère rémunération.
+          </p>
+          <div display="inline">
+            <img
+              src="img/fenggeng_yuki.png"
+              width="250"
+              border="2px rgb(85, 85, 85) solid" />
+          </div>
+          <p>
+            Après cela j'ai commencé à dessiner de plus en plus pour me
+            spécialiser dans ce domaine. J'ai commencé à dessiner des
+            overlay/des scènes que j'ai utilisé pour moi même. Pour pouvoir
+            prendre l'habitude des commissions, je dessine pour un ami des
+            emotes pour sa chaine, je ne lui demande pas de rémunération mais à
+            terme je pourrais l'utiliser comme vitrine.
+          </p>
+          <h2>Projet/Objectifs</h2>
+          <p>
+            Je me concentre principalement sur mes cours mais je compte ouvrir
+            une boutique Etsy ou je pourrais vendre mes créations. Cela me
+            permettra de pouvoir me créer de potentiels clients sans avoir à
+            prendre des commandes qui seront soient retardé, soit qui
+            m'empecheront de poursuivre correctement mes études.
+          </p>
+          <h2>Work in progress...</h2>
+        </article>
+      </main>
     </div>
     <script src="burger.js"></script>
   </body>
