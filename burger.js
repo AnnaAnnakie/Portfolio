@@ -16,9 +16,10 @@ function toggleMenu() {
     header.style.removeProperty("height");
     header.style.removeProperty("background-color");
     img.src = "img/buger.png";
+    body.style.removeProperty("overflow");
+    body.style.removeProperty("overflow-y");
 
     eclaire();
-    window.removeEventListener("scroll", noscroll);
   } else {
     // apparition du menu burger
     menu.style.display = "block";
@@ -30,15 +31,11 @@ function toggleMenu() {
     header.style.height = "100%";
     header.style.backgroundColor = "rgb(226, 82, 82)";
     img.src = "img/croix.png";
+    body.style.overflow = "hidden";
+    body.style.overflowY = "scroll !important";
 
     assombrir();
-    window.addEventListener("scroll", noscroll);
   }
-}
-
-function noscroll() {
-  // Réinitialiser la position de défilement à 0
-  window.scrollTo(0, 0);
 }
 
 function assombrir() {

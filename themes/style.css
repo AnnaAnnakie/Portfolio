@@ -29,7 +29,8 @@ body {
 }
 
 .welcome #bienvenue {
-  font-size: 4vw;
+  font-size: 5vw;
+  text-align: center;
   font-family: "Monserrat";
   font-weight: bold;
   color: black;
@@ -87,7 +88,6 @@ span {
 
   .welcome #bienvenue {
     font-size: 6vw;
-    text-align: center;
   }
   #reseau img {
     width: 100px;
