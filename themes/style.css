@@ -87,8 +87,13 @@ span {
   }
 
   .welcome #bienvenue {
-    font-size: 6vw;
+    font-size: 7vw;
   }
+
+  .welcome #source {
+    font-size: 3vw;
+  }
+
   #reseau img {
     width: 100px;
   }
