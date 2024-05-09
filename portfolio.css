@@ -102,6 +102,7 @@ article p {
 .projet img {
   width: 300px;
   height: 300px;
+  box-shadow: rgb(119, 106, 106) 3px 3px 3px;
 }
 
 span {
