@@ -197,10 +197,12 @@ article h2 {
   padding: 5px 2px 2px 5px;
   border-radius: 5px 0 0 0;
 }
+
 table{
-  display: flex;
   margin: auto;
 }
+
+
 table *{
   list-style: none;
 }
