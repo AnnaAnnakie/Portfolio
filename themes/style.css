@@ -24,7 +24,7 @@
 body {
   font-family: "Monserrat", sans-serif;
   color: var(--text);
-  font-size: 1em;
+  font-size: 1.3em;
   background-color: var(--fond);
 }
 
@@ -53,7 +53,6 @@ body {
     10%,
     rgba(255, 234, 234, 0.7)
   );
-  /*background-color: );*/
 }
 
 header {
