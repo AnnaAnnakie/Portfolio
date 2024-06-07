@@ -24,7 +24,7 @@
 body {
   font-family: "Monserrat", sans-serif;
   color: var(--text);
-  font-size: 2vh;
+  font-size: 2vw;
   background-color: var(--fond);
 }
 
