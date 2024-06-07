@@ -24,7 +24,7 @@
 body {
   font-family: "Monserrat", sans-serif;
   color: var(--text);
-  font-size: 2vw;
+  font-size: 1em;
   background-color: var(--fond);
 }
 
@@ -78,6 +78,9 @@ span {
 /* Responsive */
 
 @media only screen and (max-width: 1081px) {
+  .body {
+    font-size: 2vh;
+  }
   .menu ul li a {
     font-size: 4vh;
   }
