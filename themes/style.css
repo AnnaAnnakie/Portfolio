@@ -70,6 +70,10 @@ h1 {
   font-weight: bold;
 }
 
+article h2 {
+  font-size: 1.2em;
+}
+
 span {
   background-color: var(--redwood);
 }
