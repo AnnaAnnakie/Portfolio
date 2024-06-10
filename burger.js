@@ -1,5 +1,3 @@
-let feuilleDeStyle = window.document.styleSheets[0];
-
 function toggleMenu() {
   let menu = document.querySelector(".menu");
   let header = document.querySelector("header");

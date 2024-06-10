@@ -90,6 +90,7 @@ article p {
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
+  
 }
 
 .projet {
@@ -103,6 +104,8 @@ article p {
   width: 300px;
   height: 300px;
   box-shadow: rgb(119, 106, 106) 3px 3px 3px;
+  
+  margin: 0;
 }
 
 span {
@@ -126,11 +129,6 @@ span {
 
 span:hover {
   opacity: 0.97;
-}
-
-div img {
-  margin: 0;
-  width: 250px;
 }
 
 div {
@@ -206,6 +204,10 @@ table *{
   list-style: none;
 }
 
+
+/* Autres */
+
+
 /* Responsive */
 
 @media only screen and (max-width: 1081px) {
@@ -234,5 +236,13 @@ table *{
 
   .filAriane {
     display: none;
+  }
+
+  .inline {
+    display: block;
+  }
+
+  .inline img{
+    width: 35vh;
   }
 }
