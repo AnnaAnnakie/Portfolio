@@ -47,6 +47,9 @@ function assombrir() {
   overlay.style.position = "absolute";
   overlay.style.top = "0";
   overlay.className = "overlay";
+  overlay.onclick = function quit() {
+    toggleMenu();
+  };
   document.body.appendChild(overlay);
 }
 
