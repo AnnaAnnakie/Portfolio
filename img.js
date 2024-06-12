@@ -26,6 +26,8 @@ item.forEach(function (img) {
     // pour éclaicir
     overlay.onclick = function quit() {
       eclaire();
+      body.style.removeProperty("overflow");
+      body.style.removeProperty("overflow-y");
       document.body.removeChild(document.querySelector(".deletable"));
     };
     document.body.appendChild(overlay);
