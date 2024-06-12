@@ -11,6 +11,8 @@ item.forEach(function (img) {
     displayImg.style.width = "80vh";
     displayImg.style.position = "absolute";
     displayImg.style.zIndex = "999";
+    displayImg.style.left = "30%";
+    displayImg.style.top = "10vh";
     displayImg.className = "deletable";
     document.body.appendChild(displayImg);
 
