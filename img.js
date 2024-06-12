@@ -6,7 +6,7 @@ let big = document.getElementById("false");
 item.forEach(function (img) {
   img.addEventListener("click", function () {
     let displayImg = document.createElement("img");
-    displayImg.src = img.src.slice(39);
+    displayImg.src = img.src.slice(40);
     displayImg.alt = img.alt;
     displayImg.style.width = "80vh";
     displayImg.style.position = "absolute";
