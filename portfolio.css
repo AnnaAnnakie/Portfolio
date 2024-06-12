@@ -74,10 +74,6 @@ article {
   width: 100%;
 }
 
-article img {
-  margin-left: 50px;
-}
-
 article p {
   text-align: justify;
   margin: 0 5% 2% 5%;
@@ -90,7 +86,6 @@ article p {
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
-  
 }
 
 .projet {
@@ -104,7 +99,7 @@ article p {
   width: 300px;
   height: 300px;
   box-shadow: rgb(119, 106, 106) 3px 3px 3px;
-  
+
   margin: 0;
 }
 
@@ -153,8 +148,6 @@ article h2 {
   width: 50vh;
 }
 
-
-
 /* Home page */
 
 .welcome {
@@ -195,36 +188,61 @@ article h2 {
   border-radius: 5px 0 0 0;
 }
 
-table{
+table {
   margin: auto;
 }
 
-
-table *{
+table * {
   list-style: none;
 }
 
 /* Projets */
 
-.infos_clefs{
+.infos_clefs {
   display: flex;
   justify-content: space-evenly;
 }
 
-.carré{
+.carré {
   width: 7em;
   height: 7em;
   border-radius: 3%;
 }
 
-.carré p{
+.carré p {
   margin: auto;
   padding: 10%;
   text-align: center;
 }
 
-/* Autres */
+.intro {
+  flex-wrap: wrap;
+  width: fit-content;
+}
 
+.explications {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.presentation {
+  display: block;
+}
+
+#lang {
+  min-width: 30%;
+}
+
+/* Autres */
+#langages {
+  justify-content: space-around;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+#langages img {
+  height: 4em;
+}
 
 /* Responsive */
 
@@ -260,15 +278,16 @@ table *{
     display: block;
   }
 
-  .inline img{
+  .inline img {
     width: 35vh;
   }
 
-  .carré{
+  .carré {
     width: 20vw;
     height: 20vw;
   }
-  .carré p{
-    font-size: 3vw;
+  .explications {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

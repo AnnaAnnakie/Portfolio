@@ -78,7 +78,7 @@ span {
   background-color: var(--redwood);
 }
 
-.carré{
+.carré {
   border: var(--redwood) 1px solid;
   background-color: var(--redwood);
   color: white;
@@ -108,5 +108,9 @@ span {
 
   #reseau img {
     width: 100px;
+  }
+
+  .carré p {
+    font-size: 3vw;
   }
 }
