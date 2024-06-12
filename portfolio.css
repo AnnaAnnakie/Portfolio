@@ -143,17 +143,17 @@ article h2 {
 .gallery {
   column-count: 4;
   column-gap: 10px;
+  flex-wrap: wrap;
 }
 
 .item {
   display: inline-block;
   margin: 0 0 10px;
   break-inside: avoid-column;
+  width: 50vh;
 }
 
-.item img {
-  display: block;
-}
+
 
 /* Home page */
 
@@ -204,6 +204,24 @@ table *{
   list-style: none;
 }
 
+/* Projets */
+
+.infos_clefs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carré{
+  width: 7em;
+  height: 7em;
+  border-radius: 3%;
+}
+
+.carré p{
+  margin: auto;
+  padding: 10%;
+  text-align: center;
+}
 
 /* Autres */
 
@@ -244,5 +262,13 @@ table *{
 
   .inline img{
     width: 35vh;
+  }
+
+  .carré{
+    width: 20vw;
+    height: 20vw;
+  }
+  .carré p{
+    font-size: 3vw;
   }
 }
