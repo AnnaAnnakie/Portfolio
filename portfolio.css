@@ -279,7 +279,10 @@ table * {
   }
 
   .inline img {
+    margin: auto;
     width: 35vh;
+    height: 35vh;
+    display: flex;
   }
 
   .carré {
