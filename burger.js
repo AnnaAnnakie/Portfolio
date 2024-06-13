@@ -42,7 +42,7 @@ function assombrir() {
   overlay.style.width = "100%";
   overlay.style.height = "100%";
   overlay.style.zIndex = "99";
-  overlay.style.position = "absolute";
+  overlay.style.position = "fixed";
   overlay.style.top = "0";
   overlay.className = "overlay";
   overlay.onclick = function quit() {

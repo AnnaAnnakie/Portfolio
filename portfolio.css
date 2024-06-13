@@ -42,7 +42,7 @@ h3 {
 header {
   padding: 10px 20px;
   flex: 0 0 6000px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
