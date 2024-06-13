@@ -8,6 +8,35 @@ a {
   text-decoration: none;
 }
 
+.hover {
+  display: flex;
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+#langages {
+  justify-content: space-around;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 0% 5% 2% 5%;
+  min-width: 4em;
+}
+
+#langages img {
+  height: 6em;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
 /* Header/Menu burger */
 
 header {
@@ -88,14 +117,7 @@ article p {
   gap: 50px;
 }
 
-.projet {
-  display: flex;
-  padding: 5px;
-  position: relative;
-  border-radius: 10px;
-}
-
-.projet img {
+#projet img {
   width: 300px;
   height: 300px;
   box-shadow: rgb(119, 106, 106) 3px 3px 3px;
@@ -188,12 +210,9 @@ article h2 {
   border-radius: 5px 0 0 0;
 }
 
-table {
-  margin: auto;
-}
-
-table * {
-  list-style: none;
+.types {
+  display: block;
+  width: 30%;
 }
 
 /* Projets */
@@ -231,17 +250,6 @@ table * {
 
 #lang {
   min-width: 30%;
-}
-
-/* Autres */
-#langages {
-  justify-content: space-around;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-
-#langages img {
-  height: 4em;
 }
 
 /* Responsive */
@@ -292,5 +300,9 @@ table * {
   .explications {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .types {
+    width: 100%;
   }
 }

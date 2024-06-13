@@ -40,7 +40,7 @@ function assombrir() {
   let overlay = document.createElement("div");
   overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
   overlay.style.width = "100%";
-  overlay.style.height = "max-content";
+  overlay.style.height = "100%";
   overlay.style.zIndex = "99";
   overlay.style.position = "absolute";
   overlay.style.top = "0";
