@@ -30,7 +30,7 @@ function toggleMenu() {
     header.style.backgroundColor = /*"rgb(226, 82, 82)"*/ "#b23a48";
     img.src = "img/croix.png";
     body.style.overflow = "hidden";
-    body.style.overflowY = "scroll !important";
+    body.style.overflowY = "scroll ";
 
     assombrir();
   }

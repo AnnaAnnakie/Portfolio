@@ -25,7 +25,7 @@ body {
   font-family: "Monserrat", sans-serif;
   color: var(--text);
   font-size: 1.3em;
-  background-color: var(--fond);
+  background-color: var(--gris);
 }
 
 .welcome #bienvenue {
@@ -86,6 +86,11 @@ span {
   border: var(--redwood) 1px solid;
   background-color: var(--redwood);
   color: white;
+}
+
+.intro,
+.presentation {
+  background-color: var(--fond);
 }
 
 /* Responsive */
