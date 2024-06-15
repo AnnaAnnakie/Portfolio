@@ -307,6 +307,10 @@ article h2 {
     flex-wrap: wrap;
   }
 
+  .presentation {
+    width: 100%;
+  }
+
   .types {
     width: 100%;
   }
