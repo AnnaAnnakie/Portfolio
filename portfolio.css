@@ -8,12 +8,41 @@ a {
   text-decoration: none;
 }
 
+.hover {
+  display: flex;
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+#langages {
+  justify-content: space-around;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 0% 5% 2% 5%;
+  min-width: 4em;
+}
+
+#langages img {
+  height: 6em;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
 /* Header/Menu burger */
 
 header {
   padding: 10px 20px;
   flex: 0 0 6000px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -25,7 +54,7 @@ header {
 
 .menu-burger img {
   height: auto;
-  width: 30px;
+  width: 50px;
 }
 
 .menu {
@@ -88,17 +117,9 @@ article p {
   gap: 50px;
 }
 
-.projet {
-  display: flex;
-  padding: 5px;
-  position: relative;
-  border-radius: 10px;
-}
-
-.projet img {
+#projet img {
   width: 300px;
   height: 300px;
-  box-shadow: rgb(119, 106, 106) 3px 3px 3px;
 
   margin: 0;
 }
@@ -188,12 +209,9 @@ article h2 {
   border-radius: 5px 0 0 0;
 }
 
-table {
-  margin: auto;
-}
-
-table * {
-  list-style: none;
+.types {
+  display: block;
+  width: 30%;
 }
 
 /* Projets */
@@ -218,30 +236,25 @@ table * {
 .intro {
   flex-wrap: wrap;
   width: fit-content;
+  padding: 1em;
+  border-radius: 2em;
 }
 
 .explications {
   flex-wrap: nowrap;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .presentation {
   display: block;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 2em;
 }
 
 #lang {
   min-width: 30%;
-}
-
-/* Autres */
-#langages {
-  justify-content: space-around;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-
-#langages img {
-  height: 4em;
 }
 
 /* Responsive */
@@ -279,7 +292,10 @@ table * {
   }
 
   .inline img {
+    margin: auto;
     width: 35vh;
+    height: 35vh;
+    display: flex;
   }
 
   .carré {
@@ -289,5 +305,13 @@ table * {
   .explications {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .presentation {
+    width: 100%;
+  }
+
+  .types {
+    width: 100%;
   }
 }

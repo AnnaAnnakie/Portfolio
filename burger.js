@@ -30,7 +30,7 @@ function toggleMenu() {
     header.style.backgroundColor = /*"rgb(226, 82, 82)"*/ "#b23a48";
     img.src = "img/croix.png";
     body.style.overflow = "hidden";
-    body.style.overflowY = "scroll !important";
+    body.style.overflowY = "scroll ";
 
     assombrir();
   }
@@ -40,9 +40,9 @@ function assombrir() {
   let overlay = document.createElement("div");
   overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
   overlay.style.width = "100%";
-  overlay.style.height = "max-content";
+  overlay.style.height = "100%";
   overlay.style.zIndex = "99";
-  overlay.style.position = "absolute";
+  overlay.style.position = "fixed";
   overlay.style.top = "0";
   overlay.className = "overlay";
   overlay.onclick = function quit() {

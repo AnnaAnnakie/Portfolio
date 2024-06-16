@@ -9,7 +9,7 @@ item.forEach(function (img) {
     displayImg.src = img.src.slice(40);
     displayImg.alt = img.alt;
     displayImg.style.width = "80vh";
-    displayImg.style.position = "absolute";
+    displayImg.style.position = "fixed";
     displayImg.style.zIndex = "999";
     displayImg.style.left = "30%";
     displayImg.style.top = "10vh";
@@ -22,7 +22,7 @@ item.forEach(function (img) {
     overlay.style.width = "100%";
     overlay.style.height = "100%";
     overlay.style.zIndex = "99";
-    overlay.style.position = "absolute";
+    overlay.style.position = "fixed";
     overlay.style.top = "0";
     overlay.className = "overlay";
     // pour éclaicir

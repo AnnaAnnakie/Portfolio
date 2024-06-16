@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-  <html lang="fr">
-    <head>
-      <meta charset="UTF-8">
-      <title>Mon portfolio</title>
-      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
-      <link rel="stylesheet" href="themes/style.css"> <!-- Changement de thème ici -->
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="themes/style.css" />
+    <!-- Changement de thème ici -->
     <link rel="icon" type="image/png" href="img/chibi.png" />
-    </head>
+  </head>
 
-    <body>
-      <div class="container">
+  <body>
+    <div class="container">
       <header>
-
         <div class="menu-burger" onclick="toggleMenu()">
-          <img src="img/buger.png" alt="icone-menu-burger" width="30px">
+          <img src="img/buger.png" alt="icone-menu-burger" width="30px" />
         </div>
-        
+
         <nav class="menu">
           <ul>
-            <li><a  href="index.html">Accueil</a></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="mes-projets.html">Mes projets</a></li>
             <li><a href="galerie.html">Galerie</a></li>
           </ul>
@@ -44,79 +45,118 @@
             </ul>
           </div>
         </nav>
-
       </header>
 
       <main>
-        <div class="filtre">
+        <div class="filtre"></div>
+        <div class="welcome">
+          <p id="bienvenue">Bienvenue sur le portfolio de Anaïs Marchetti</p>
+          <a href="https://twitter.com/shadeofacat_/media?lang=fr" id="source"
+            >@shadeofacat_</a
+          >
+          <img src="img/placeholder_heroImg.jpg" alt="heroImage" />
         </div>
-          <div class="welcome">
-            <p id="bienvenue">Bienvenue sur le portfolio de Anaïs Marchetti</p>
-            <a href="https://twitter.com/shadeofacat_/media?lang=fr" id="source">@shadeofacat_</a>
-            <img src="img/placeholder_heroImg.jpg" alt="heroImage">
-          </div>
         <article>
-
           <!-- Titre de la page -->
-        <h1>Me connaître</h1>
-        <p>
-          Je m'appelle Anaïs Marchetti, je suis étudiante à l'IUT2 de Grenoble
-          en BUT Informatique que j'ai représenté en tant qu'ambassadrice. Du haut
-          de mes 20 ans je n'ai que peu d'expérience dans beaucoup de domaines
-          et contrairement à certains de mes camarades et collègues, je n'ai pas beaucoup de
-          projets personnels liés à l'informatique. Je me distingue malgré tout
-          par mon intérêt de l'art ce qui me pousse à préférer le developpement front-end pour son
-          aspect visuel.
-        </p>
-        <h1>Mes compétences technique</h1>
-        <table>
-        <thead>
-          <tr>
-            <th scope="col">Web</th>
-            <th scope="col">Application</th>
-            <th scope="col">Autres</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td scope="row">
-              <ul>
-                <li>HTML5/CSS3</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>Symfony</li>
-                <li>Twig</li>
-              </ul>
-            </td>
-            <td scope="row">
-              <ul>
-                <li>C++</li>
-                <li>JavaFX</li>
-                <li>Java</li>
-                <li>C</li>
-                <li>Python</li>
-              </ul>
-            </td>
-            <td scope="row">
-              <ul>
-                <li>Git</li>
-                <li>SQL</li>
-                <li>Docker</li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      </hr>
-
-        <h1>Informations de contact</h1>
-        <p>Discord : @Nanakie</p>
-        <p>Mail pro : Anais.Marchetti@etu.univ-grenoble-alpes.fr</p>
-        <p>Mail perso : anna.marchetti77@gmail.com</p>
-        <p>Numéro : (+33)7 83 37 28 07</p>
+          <div class="intro">
+            <h2>Me connaître</h2>
+            <p>
+              Je m'appelle Anaïs Marchetti, je suis étudiante à l'IUT2 de
+              Grenoble en BUT Informatique que j'ai représenté en tant
+              qu'ambassadrice. J'apprécie l'art et tout ce qui est visuel, c'est
+              pour cette raison que j'ai une préférence pour le front-end. Cette
+              préférence me permet de me distinguer de mes camarades qui s'y
+              intéressent majoritairement moins. J'ai donc eu l'occasion à
+              plusieurs reprises lors des projets (SAE) d'être la graphiste ou
+              la directrice artistique des groupes de travail.
+            </p>
+          </div>
+          <div class="presentation">
+            <h2>Mes compétences technique</h2>
+            <div id="langages">
+              <div class="types">
+                <h3>Web</h3>
+                <div class="center">
+                  <div class="hover">
+                    <img src="img/langages/HTML5.png" alt="HTML5" />
+                    <span>HTML5</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/CSS3.png" alt="CSS3" />
+                    <span>CSS3</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/js.png" alt="Javascript" />
+                    <span>JS</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/PHP.png" alt="PHP" />
+                    <span>PHP</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/Symfony.png" alt="Symfony" />
+                    <span>Symfony</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/twig.png" alt="Twig" />
+                    <span>Twig</span>
+                  </div>
+                </div>
+              </div>
+              <div class="types">
+                <h3>Application</h3>
+                <div class="center">
+                  <div class="hover">
+                    <img src="img/langages/CPP.png" alt="C++" />
+                    <span>C++</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/C.png" alt="C" />
+                    <span>C</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/JavaFX.png" alt="JavaFX" />
+                    <span>JavaFX</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/java.png" alt="Java" />
+                    <span>Java</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/Python.png" alt="Python" />
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+              <div class="types">
+                <h3>Autres</h3>
+                <div class="center">
+                  <div class="hover">
+                    <img src="img/langages/Git.png" alt="Git" />
+                    <span>Git</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/Sql.png" alt="SQL" />
+                    <span>SQL</span>
+                  </div>
+                  <div class="hover">
+                    <img src="img/langages/Docker.png" alt="Docker" />
+                    <span>Docker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="presentation">
+            <h2>Informations de contact</h2>
+            <p>Discord : @Nanakie</p>
+            <p>Mail pro : Anais.Marchetti@etu.univ-grenoble-alpes.fr</p>
+            <p>Mail perso : anna.marchetti77@gmail.com</p>
+            <p>Numéro : (+33)7 83 37 28 07</p>
+          </div>
         </article>
       </main>
-      </div>
-      <script src="burger.js"></script>
-    </body>
-  </html>
+    </div>
+    <script src="burger.js"></script>
+  </body>
+</html>

@@ -58,8 +58,15 @@ body {
 header {
   color: white;
 }
+
+a {
+  color: var(--cordovan);
+  font-weight: bold;
+}
+
 header a {
   color: white;
+  font-weight: normal;
 }
 
 header a:hover {
@@ -74,6 +81,10 @@ article h2 {
   font-size: 1.2em;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
 span {
   background-color: var(--redwood);
 }
@@ -83,6 +94,11 @@ span {
   background-color: var(--redwood);
   color: white;
 }
+
+/*.intro,
+.presentation {
+  background-color: var(--fond);
+}*/
 
 /* Responsive */
 
