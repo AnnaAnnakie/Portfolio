@@ -58,8 +58,15 @@ body {
 header {
   color: white;
 }
+
+a {
+  color: var(--cordovan);
+  font-weight: bold;
+}
+
 header a {
   color: white;
+  font-weight: normal;
 }
 
 header a:hover {
